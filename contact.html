@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Head Section-->
+<head>
+    <title>Contact | Hotel</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Stylesheets - Style-->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3b442a2cd7.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap">
+    <!--Stylesheets - Favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/logo-black.jpg">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/logo-black.jpg">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/logo-black.jpg">
+    <!--Javascript-->
+    <script defer src="fade-in-up.js"></script>
+    <script defer src="cookie-banner.js"></script>
+</head>
+<!--Body Section-->
+<body id="body">
+    <!--Scroll to Top Button-->
+    <button class="back-to-top hidden">
+        <svg
+            xmlns="http://www.w3.org/2000/svg" 
+            height="16" 
+            width="12" 
+            viewBox="0 0 384 512"
+        >
+        <path 
+        fill="#3a3737"
+        d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"
+        />
+        </svg>
+      </button>
+    <!--Main Container-->
+    <div class="container">
+        <!--Navigation Bar-->
+        <div class="navbar bg-color" id="navbar">
+            <div href="javascript:void(0)" class="navbar-left">
+                <div class="sidebar" id="mySidebar">
+                    <a href="javascript:void(0);" class="closebtn" onclick="closeSide()">&times;</a>
+                    <div class="sidebar-content">
+                        <a href="index.html">Home Page</a>
+                        <a href="accommodation.html">Accommodation</a>
+                        <a href="restaurant.html">Dine & Drink</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                    <div class="comments">
+                        <div class="info-bar">
+                            <p>
+                                <a href="tel:3027310">
+                                    <svg width="16px" 
+                                        height="16px" 
+                                        viewBox="0 0 16 16" 
+                                        xmlns="http://www.w3.org/2000/svg" 
+                                        fill="#3a3737" 
+                                        class="bi bi-telephone">
+                                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                        <g id="SVGRepo_iconCarrier"> 
+                                            <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"></path> 
+                                        </g>
+                                    </svg>
+                                    0030 2731 0
+                                </a>
+                            </p>
+                            <p>
+                                <a href="mailto:info@mail.gr">
+                                    <svg width="16px" 
+                                        height="16px" 
+                                        viewBox="0 0 24 24" 
+                                        fill="none" 
+                                        xmlns="http://www.w3.org/2000/svg" 
+                                        stroke="#3a3737">
+                                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                        <g id="SVGRepo_iconCarrier"> 
+                                            <path d="M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12ZM16 12V13.5C16 14.8807 17.1193 16 18.5 16V16C19.8807 16 21 14.8807 21 13.5V12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21H16" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> 
+                                        </g>
+                                    </svg>
+                                    info@mail.gr
+                                </a>
+                            </p>
+                            <p>
+                                <a target="_blank" href="">
+                                    <svg fill="#3a3737"
+                                        version="1.1" 
+                                        id="Capa_1" 
+                                        xmlns="http://www.w3.org/2000/svg" 
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" 
+                                        width="16px" 
+                                        height="16px" 
+                                        viewBox="-39.57 -39.57 474.85 474.85" 
+                                        xml:space="preserve" stroke="#3a3737" 
+                                        transform="rotate(0)matrix(1, 0, 0, 1, 0, 0)">
+                                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="4.74852"></g>
+                                        <g id="SVGRepo_iconCarrier">
+                                            <g> 
+                                                <path d="M197.849,0C122.131,0,60.531,61.609,60.531,137.329c0,72.887,124.591,243.177,129.896,250.388l4.951,6.738 c0.579,0.792,1.501,1.255,2.471,1.255c0.985,0,1.901-0.463,2.486-1.255l4.948-6.738c5.308-7.211,129.896-177.501,129.896-250.388 C335.179,61.609,273.569,0,197.849,0z M197.849,88.138c27.13,0,49.191,22.062,49.191,49.191c0,27.115-22.062,49.191-49.191,49.191 c-27.114,0-49.191-22.076-49.191-49.191C148.658,110.2,170.734,88.138,197.849,88.138z"></path>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                    Konstantinou Palaiologou, 
+                                     Sparta 231 00, Greece                                  
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="meatball-menu" onclick="openSide()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="navbar-middle">
+                <a href="index.html">
+                    <div class="logo"></div>
+                </a>
+            </div>
+            <div class="navbar-right">
+                <a href="contact-el.html">
+                    <div class="button-lang">
+                        <p>EL</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="button-book">
+                        <p>Book</p>
+                    </div>
+                </a>
+            </div>
+            <div class="progress-container">
+                <div class="progress-bar" id="myBar"></div>
+            </div>
+        </div>
+        <!--Main Container-->
+        <div class="main-container">
+            <div class="banner">
+                <h3>Contact</h3>
+            </div>
+            <div class="row-contact">
+                <div class="contact-tel">
+                    <h4>Telephone</h4>
+                    <a href="tel:302731022665"><p>0030 2731 0</p></a>
+                </div>
+                <div class="contact-mail">
+                    <h4>Email</h4>
+                    <a href="mailto:info@mail.gr"><p>info@mail.gr</p></a>
+                </div>
+            </div>
+            <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=%CF%83%CF%80%CE%B1%CF%81%CF%84%CE%B7&zoom=10&maptype=roadmap" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+        <!--Footer-->
+        <div class="footer" id="footer">
+            <div class="footer-left">
+                <div class="footer-left-up">
+                    <h4>Get in Touch</h4>
+                    <a href="tel:3027310"><p class="yes-hover">T: 0030 2731 0</p></a>
+                    <a href="mailto:info@mail.gr"><p class="yes-hover">E: info@mail.gr</p></a>
+                    <a target="_blank" href=""><p class="yes-hover">Konstantinou Palaiologou</p>
+                    <p class="yes-hover">Sparta 231 00, Greece</p></a>
+                </div>
+                <div class="footer-left-down">
+                    <p>Hotel 2024 © | All rights reserved</p>
+                    <p>Designed & Developed by Ioanna M. Theophilakou</p>
+                </div>
+            </div>
+            <div class="footer-right">
+                <div class="footer-right-up">
+                    <h4>Hotel</h4>
+                    <a href="amenities.html"><p class="yes-hover">Hotel Amenities</p></a>
+                    <a href="terms.html"><p class="yes-hover">Terms & Conditions</p></a>
+                    <a href="policy.html"><p class="yes-hover">Privacy Policy</p></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Open & Close SideBar-->
+
+    <script>
+        function openSide() {
+
+            if (matchMedia("(max-width: 992px)").matches) {
+                document.getElementById("mySidebar").style.width = "100%";
+                document.getElementById("mySidebar").style.transition = "all 0.5s ease";
+                document.getElementById("mySidebar").style.overflowX = "hidden";
+                document.getElementById("body").style.overflowY = "hidden";
+            } else {
+                document.getElementById("mySidebar").style.width = "40%";
+                document.getElementById("mySidebar").style.transition = "all 0.5s ease";
+                document.getElementById("mySidebar").style.overflowX = "hidden";
+                document.getElementById("body").style.overflowY = "hidden";
+            }
+        }
+        
+        function closeSide() {
+            document.getElementById("mySidebar").style.width = "0%";
+            document.getElementById("mySidebar").style.transition = "all 0.5s ease";
+            document.getElementById("body").style.overflowY = "auto";
+        }
+    </script>
+
+    <!--Scroll to Top Button-->
+
+    <script>
+        const showOnPx = 200;
+        const backToTopButton = document.querySelector(".back-to-top");
+
+        const scrollContainer = () => {
+        return document.documentElement || document.body;
+        };
+
+        document.addEventListener("scroll", () => {
+        if (scrollContainer().scrollTop > showOnPx) {
+            backToTopButton.classList.remove("hidden")
+        } else {
+            backToTopButton.classList.add("hidden")
+        }
+
+        let footerElement = document.getElementById('footer');
+            let footerElementRect = footerElement.getBoundingClientRect();
+            let backToTopButtonPositionBottom = backToTopButton.offsetTop + backToTopButton.offsetHeight;
+
+            if (footerElementRect.y < backToTopButtonPositionBottom) {
+                let diffheight = backToTopButtonPositionBottom - footerElementRect.y;
+                let style = window.getComputedStyle(backToTopButton);
+                let addBottom = parseInt(style.getPropertyValue('bottom')) + diffheight;
+                backToTopButton.style.bottom = addBottom + 'px';
+            } else {
+                backToTopButton.style.bottom = '';
+            }
+        })
+
+        const goToTop = () => {
+            document.body.scrollIntoView();
+        };
+
+        backToTopButton.addEventListener("click", goToTop);
+    </script>
+
+    <!--Progress Bar-->
+
+    <script>
+        // When the user scrolls the page, execute myFunction 
+        window.onscroll = function() {myFunction()};
+        
+        function myFunction() {
+          var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+          var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+          var scrolled = (winScroll / height) * 100;
+          document.getElementById("myBar").style.width = scrolled + "%";
+        }
+    </script>
+
+    <!--Row Reveal-->
+
+    <script>
+        function reveal() {
+            var reveals = document.querySelectorAll(".reveal");
+    
+            for (var i = 0; i < reveals.length; i++) {
+                var windowHeight = window.innerHeight;
+                var elementTop = reveals[i].getBoundingClientRect().top;
+                var elementVisible = 150;
+    
+                if (elementTop < windowHeight - elementVisible) {
+                reveals[i].classList.add("active");
+                } else {
+                reveals[i].classList.remove("active");
+                }
+            }
+            }
+    
+        window.addEventListener("scroll", reveal, {passive: true});    
+    </script>
+
+</body>
+</html>
